@@ -11,12 +11,11 @@ import reducer from '@/store/reducer'
 
 const store: Store<StoreState, StoreAction> & {
   dispatch: DispatchType
-  // @ts-ignore
 } = createStore(
   reducer,
   compose(
     applyMiddleware(thunk),
-    window.__REDUX_DEVTOOLS_EXTENSION__ &&
+  window.__REDUX_DEVTOOLS_EXTENSION__ &&
       window.__REDUX_DEVTOOLS_EXTENSION__(),
   ),
 )
