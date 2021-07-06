@@ -9,7 +9,7 @@ const CityInfoBlock: FC = () => {
     (state: StoreState) => state,
     shallowEqual,
   )
-  console.log({ data })
+
   return (
     <Wrapper className='column is-flex is-flex-direction-column box'>
       <div
