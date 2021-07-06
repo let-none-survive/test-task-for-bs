@@ -10,6 +10,9 @@
 * [Styled-Components](https://styled-components.com/) support
 * Code linting ([ESLint](https://github.com/eslint/eslint)) and formatting ([Prettier](https://github.com/prettier/prettier))
 
+## Demo
+**Check how it works using this [demo](https://test-task-for-bs.herokuapp.com/) link**
+
 ## Usage
 **Development**
 
